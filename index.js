@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
-let PORT = 3000 || process.env.PORT;
+const PORT = process.env.PORT || 3000;
 app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("home");
