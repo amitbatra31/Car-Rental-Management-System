@@ -1,4 +1,5 @@
-<%-include('navbar') %>
+<%- include('navbar',{signedIN:signedIN, if(usrDetails){ usrDetails:usrDetails }
+})%>
 <section class="vh-100" style="background-color: #a9e0fa">
   <div class="container h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">

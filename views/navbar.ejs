@@ -57,12 +57,29 @@
             </li>
           </ul>
           <div class="d-flex gap-2">
+            <%if(signedIN==false){%>
             <a class="btn border border-2 border-dark btn-light" href="login"
               >Login</a
             >
             <a class="btn border border-2 border-dark btn-light" href="register"
               >Register</a
             >
+            <%}%> <%if(signedIN==true){%>
+            <a
+              class="navbar-brand nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa fa-solid fa-user"></i>
+              <%= usrDetails.firstName %>
+            </a>
+            <a class="btn border border-2 border-dark btn-light" href="/signout"
+              >Logout</a
+            >
+            <%}%>
           </div>
         </div>
       </div>

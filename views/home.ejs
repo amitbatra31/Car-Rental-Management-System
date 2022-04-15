@@ -1,6 +1,6 @@
-
-    <%- include('navbar')%>
-
+<%- include('navbar',{signedIN:signedIN, 
+   if(usrDetails){ usrDetails:usrDetails }
+})%>
     <div class="wrapper position-relative">
       <img
         src="images/car-bg.jpeg"
