@@ -3,8 +3,7 @@ const cars = [
     id: 1,
     name: "BMW",
     price: 100,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/bmw.jpeg",
     type: "sedan",
     rating: "3",
   },
@@ -12,8 +11,7 @@ const cars = [
     id: 2,
     name: "Audi",
     price: 200,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/audi.jpeg",
     type: "sedan",
     rating: "5",
   },
@@ -21,8 +19,7 @@ const cars = [
     id: 3,
     name: "Mercedes",
     price: 300,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/mercedes.jpeg",
     type: "sedan",
     rating: "2",
   },
@@ -30,8 +27,7 @@ const cars = [
     id: 4,
     name: "Swift",
     price: 100,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/swift.jpeg",
     type: "hatchback",
     rating: "4",
   },
@@ -39,8 +35,7 @@ const cars = [
     id: 5,
     name: "Honda",
     price: 200,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/honda.jpeg",
     type: "sedan",
     rating: "5",
   },
@@ -48,8 +43,7 @@ const cars = [
     id: 6,
     name: "Ford",
     price: 300,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/ford.jpeg",
     type: "sedan",
     rating: "4.5",
   },
@@ -57,8 +51,7 @@ const cars = [
     id: 7,
     name: "Maruti WagonR",
     price: 100,
-    image:
-      "https://cdn.pixabay.com/photo/2015/09/02/12/25/bmw-918408_960_720.jpg",
+    image: "images/wagonr.webp",
     type: "hatchback",
     rating: "4.5",
   },
