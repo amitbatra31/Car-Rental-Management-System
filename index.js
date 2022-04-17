@@ -24,7 +24,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 const connectDB = async () => {
   await mongoose.connect(
-    "mongodb://127.0.0.1:27017/crmsDB",
+    process.env.MONGODB_URI || "mongodb://localhost/crmsDB",
     {
       useNewUrlParser: true,
     },
